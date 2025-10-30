@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container {
+            margin: 100px 0 0 200px;
+            width: 70%;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .container img {
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border: 2px solid white;
+            border-radius: 10px;
+            transition: all ease-in-out 0.5s;
+        }
+
+        .container img:hover {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/pic6.jpg" alt="">
+        <img src="img/pic2.jpg" alt="">
+        <img src="img/pic3.jpg" alt="">
+        <img src="img/pic4.jpg" alt="">
+        <img src="img/pic5.jpg" alt="">
+    </div>
+</body>
+
+</html>
